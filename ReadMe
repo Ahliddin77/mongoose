@@ -1,71 +1,64 @@
-# 📦 Mongoose CRUD API
+# Mongoose CRUD API
 
-A **Node.js** application using **Express.js** and **Mongoose** to perform full **CRUD** operations on MongoDB collections.
-
----
-
-## 🚀 Features
-
-- 📋 Manage collections: **Todos**, **Cars**, **Books**, and **Restaurants**
-- 🌐 RESTful API with full **JSON** support
-- 🛠 Built with **Express.js** and **Mongoose**
+A Node.js application using **Express.js** and **Mongoose** to perform CRUD operations on MongoDB collections.
 
 ---
 
-## 📡 API Endpoints
+## Features
 
-### ✅ Todos
-
-| Method | Endpoint           | Description       |
-|--------|--------------------|-------------------|
-| GET    | `/todos`           | Get all todos     |
-| PUT    | `/todos/:id`       | Update a todo     |
-| DELETE | `/todos/:id`       | Delete a todo     |
-
-### 🚗 Cars
-
-| Method | Endpoint           | Description       |
-|--------|--------------------|-------------------|
-| GET    | `/cars`            | Get all cars      |
-| POST   | `/cars`            | Add a new car     |
-| PUT    | `/cars/:id`        | Update a car      |
-| DELETE | `/cars/:id`        | Delete a car      |
-
-### 📚 Books
-
-| Method | Endpoint           | Description       |
-|--------|--------------------|-------------------|
-| GET    | `/books`           | Get all books     |
-| POST   | `/books`           | Add a new book    |
-| PUT    | `/books/:id`       | Update a book     |
-| DELETE | `/books/:id`       | Delete a book     |
-
-### 🍽️ Restaurants
-
-| Method | Endpoint              | Description           |
-|--------|-----------------------|-----------------------|
-| GET    | `/restaurants`        | Get all restaurants   |
-| POST   | `/restaurants`        | Add a restaurant      |
-| PUT    | `/restaurants/:id`    | Update a restaurant   |
-| DELETE | `/restaurants/:id`    | Delete a restaurant   |
+- Manage **Todos**, **Cars**, **Books**, and **Restaurants**
+- RESTful API with JSON support
+- Built with **Express.js** and **Mongoose**
 
 ---
 
-## ⚙️ Installation
+## API Endpoints
+
+### Todos
+
+| Method | Endpoint      | Description   |
+|--------|---------------|---------------|
+| GET    | /todos        | Get all todos |
+| PUT    | /todos/:id    | Update a todo |
+| DELETE | /todos/:id    | Delete a todo |
+
+### Cars
+
+| Method | Endpoint      | Description   |
+|--------|---------------|---------------|
+| GET    | /cars         | Get all cars  |
+| POST   | /cars         | Add a car     |
+| PUT    | /cars/:id     | Update a car  |
+| DELETE | /cars/:id     | Delete a car  |
+
+### Books
+
+| Method | Endpoint      | Description   |
+|--------|---------------|---------------|
+| GET    | /books        | Get all books |
+| POST   | /books        | Add a book    |
+| PUT    | /books/:id    | Update a book |
+| DELETE | /books/:id    | Delete a book |
+
+### Restaurants
+
+| Method | Endpoint          | Description          |
+|--------|-------------------|----------------------|
+| GET    | /restaurants      | Get all restaurants  |
+| POST   | /restaurants      | Add a restaurant     |
+| PUT    | /restaurants/:id  | Update a restaurant  |
+| DELETE | /restaurants/:id  | Delete a restaurant  |
+
+---
+
+## Installation
 
 ```bash
-# 1. Clone the repository
+# Clone the repo
 git clone <repo-url>
 
-# 2. Install dependencies
+# Install dependencies
 npm install
 
-# 3. Start the development server
+# Start the development server
 npm run dev
-```
-
----
-
-## 📄 License
-
-This project is licensed under the **MIT License**.
