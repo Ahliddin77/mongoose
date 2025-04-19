@@ -2,47 +2,63 @@
 
 A Node.js application using **Express.js** and **Mongoose** to perform CRUD operations on MongoDB collections.
 
+---
+
 ## Features
 
-- Manage **Todos**, **Cars**, **Books**, and **Restaurants**.
-- RESTful API with JSON support.
-- Built with **Express.js** and **Mongoose**.
+- Manage **Todos**, **Cars**, **Books**, and **Restaurants**
+- RESTful API with JSON support
+- Built with **Express.js** and **Mongoose**
+
+---
 
 ## API Endpoints
 
 ### Todos
 
-- `GET /todos` - Get all todos.
-- `PUT /todos/:id` - Update a todo.
-- `DELETE /todos/:id` - Delete a todo.
+| Method | Endpoint      | Description   |
+|--------|---------------|---------------|
+| GET    | /todos        | Get all todos |
+| PUT    | /todos/:id    | Update a todo |
+| DELETE | /todos/:id    | Delete a todo |
 
 ### Cars
 
-- `GET /cars` - Get all cars.
-- `POST /cars` - Add a car.
-- `PUT /cars/:id` - Update a car.
-- `DELETE /cars/:id` - Delete a car.
+| Method | Endpoint      | Description   |
+|--------|---------------|---------------|
+| GET    | /cars         | Get all cars  |
+| POST   | /cars         | Add a car     |
+| PUT    | /cars/:id     | Update a car  |
+| DELETE | /cars/:id     | Delete a car  |
 
 ### Books
 
-- `GET /books` - Get all books.
-- `POST /books` - Add a book.
-- `PUT /books/:id` - Update a book.
-- `DELETE /books/:id` - Delete a book.
+| Method | Endpoint      | Description   |
+|--------|---------------|---------------|
+| GET    | /books        | Get all books |
+| POST   | /books        | Add a book    |
+| PUT    | /books/:id    | Update a book |
+| DELETE | /books/:id    | Delete a book |
 
 ### Restaurants
 
-- `GET /restaurants` - Get all restaurants.
-- `POST /restaurants` - Add a restaurant.
-- `PUT /restaurants/:id` - Update a restaurant.
-- `DELETE /restaurants/:id` - Delete a restaurant.
+| Method | Endpoint          | Description          |
+|--------|-------------------|----------------------|
+| GET    | /restaurants      | Get all restaurants  |
+| POST   | /restaurants      | Add a restaurant     |
+| PUT    | /restaurants/:id  | Update a restaurant  |
+| DELETE | /restaurants/:id  | Delete a restaurant  |
+
+---
 
 ## Installation
 
-1. Clone the repo: `git clone <repo-url>`
-2. Install dependencies: `npm install`
-3. Start the server: `npm run dev`
+```bash
+# Clone the repo
+git clone <repo-url>
 
-## License
+# Install dependencies
+npm install
 
-MIT License
+# Start the development server
+npm run dev
